@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form  Registrasi Mahasiswa</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Mahasiswa</h1>
+    <p>Pastikan anda mengisi formulir dengan benar</p>
+
+    <br>
+    <hr>
+    <br>
+
+    <form>
+               
+        No. Pendaftaran
+        : <input type="text"><br><br>
+        Nama             
+        : <input type="text"><br><br>
+        Jenis Kelamin
+        : 
+        <br> <input type="radio" name="Jenis Kelamin"> Laki-laki <br>
+        <input type="radio" name="Jenis Kelamin"> Perempuan <br>
+        <br>
+        Tempat Lahir     
+        : <input type="text"><br><br>
+        Tanggal Lahir    
+        : <input type="date"><br><br>
+        Alamat           
+        : <br><textarea></textarea><br><br>
+        Pekerjaan        
+        : <input type="text"><br><br>
+        E-mail
+        : <input type="text"><br><br>
+        No.HP
+        : <input type="text"><br><br>
+        Status           
+        : <br>
+        <input type="radio" name="Status"> Kawin <br>
+        <input type="radio" name="Status"> Belum Kawin <br>
+        <input type="radio" name="Status"> Janda <br>
+        <input type="radio" name="Status"> Duda <br>
+        <br>
+        Jurusan          
+        :
+        <select>    
+            <option value=""> =Pilih Jurusan=  </option>
+            <option value="TI"> Teknik Informatika</option>
+            <option value="SI"> Sistem Informasi</option>
+        </select>
+        <br>
+        <br>
+        Angkatan            
+        : 
+        <label><input type="radio" name="angkatan">2018</label>
+        <label><input type="radio" name="angkatan">2019</label>
+        <label><input type="radio" name="angkatan">2020</label>
+        <br>
+        <br>
+
+        Piagam Penghargaan(bila ada) 
+        :
+        <p>Upload <input type='file' name='foto' /></p>
+        <input type='submit' name='tombol' value='Kirim' />
+        <br>
+        <p>Upload <input type='file' name='foto' /></p>
+        <input type='submit' name='tombol' value='Kirim' />
+        <br> 
+        <br>
+        SKS Diambil         
+        : 
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Bahasa Inggris</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Metode Penelitian</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Basis Data</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Sistem Operasi</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Jaringan Komputer</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Struktur Data dan Algoritma</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Pengantar Teknologi Informasi</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Matematika Diskrit</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Pemrograman Web</label>
+        <br>
+        <br>
+        <label><input type="checkbox" name="SKS Diambil">Administrasi Sistem</label>
+        <br>
+        <br>
+        Pendidikan  
+        :
+    
+    </form>
+    <style>
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    </style>
+    <table style="width:100%">    
+    <tr>
+    <th>JENJANG</th>
+    <th>NAMA SEKOLAH</th>
+    <th>JURUSAN/PRODI</th>
+    <th>TAHUN LULUS</th>
+    
+    <tr>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    </tr>
+    <tr>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    </tr>
+    <tr>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    </tr>
+    <tr>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    <th><input type="text"></th>
+    </tr>
+    </table>
+    <br/>
+    <br/>
+    <input type="submit" name="submit" value="Daftar"/> <input type="reset" name="reset" value="Batal"/>
+
+</body>
+</html>
